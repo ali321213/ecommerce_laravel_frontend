@@ -29,9 +29,7 @@ Route::prefix('shop')->group(function () {
     Route::get('/products', ProductsPage::class)->name('products.index');
     Route::get('/products/{slug}', ProductDetailPage::class)->name('products.show');
 });
-
 // Route::post('/login', [AuthController::class, 'login'])->name('login.store');
-
 /* Cart & Checkout (Auth Required) */
 Route::middleware('auth')->group(function () {
     Route::get('/cart', CartPage::class)->name('cart.index');
