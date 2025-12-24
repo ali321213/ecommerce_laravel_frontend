@@ -1,0 +1,24 @@
+https://github.com/vickypandey14
+
+SKU:-
+What is a stock keeping unit (SKU)? A stock keeping unit—or SKU for short—is a code that helps ecommerce sellers identify products in their inventory. SKUs are usually made up of 8 to 10 letters and numbers. They make it easier to keep track of stock throughout the selling process.07-May-2024
+
+
+git init
+git pull
+git status
+git merge
+git stash
+git add README.md
+git commit -m "Initial Commit"
+git branch -M main
+git remote add origin https://github.com/ali321213/daraz.git
+git push -u origin main
+git add .
+
+
+php artisan migrate:fresh --seed
+php artisan db:seed
+
+Movies:-
+South of the Moon
